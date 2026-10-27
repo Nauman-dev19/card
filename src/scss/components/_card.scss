@@ -1,0 +1,18 @@
+@use '../abstracts' as *;
+
+.card-image {
+	width: rem-calc(124);
+	height: rem-calc(124);
+}
+.card-text {
+	h2 {
+		font-size: 2rem;
+	}
+}
+.card {
+	transition: all 0.5s ease-in-out;
+	&:hover {
+		transform: scale(1.2);
+		cursor: pointer;
+	}
+}

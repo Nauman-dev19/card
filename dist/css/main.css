@@ -1,0 +1,34 @@
+html {
+  max-width: 1032px;
+  height: 100vh;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-image {
+  width: 7.75rem;
+  height: 7.75rem;
+}
+
+.card-text h2 {
+  font-size: 2rem;
+}
+
+.card {
+  transition: all 0.5s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
